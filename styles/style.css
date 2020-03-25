@@ -1,12 +1,58 @@
 nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    background-color: black;
+    color: rgb(175, 170, 170);
+    height: 2rem;
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
 }
 
 .top-nav > * {
     display: inline;
+    padding: 0 1rem;
 }
 
-.footer-img {
-    background-color: red;
+.right {
+    margin-left: 20rem;
 }
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+      display: block;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    background-color: rgb(219, 213, 213);
+    color: rgb(49, 47, 47);
+    height: 3rem;
+    padding-top: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.search-icon {
+    height: 100%;
+    margin-left: 20rem;
+    padding-right: 0.8rem;
+    /* background-color: red; */
+    padding-bottom: 2rem;
+}
+
+.fa-search {
+    border-left: 0.1rem solid rgb(122, 119, 119);
+    padding-left: 0.5rem;
+}
+
+.festival {
+    background-color: rgb(207, 207, 9);
+    height: 1.8rem;
+}
+
+
