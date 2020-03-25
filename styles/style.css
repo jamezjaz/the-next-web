@@ -1,3 +1,12 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.top-nav > * {
+    display: inline;
+}
+
 .footer-img {
     background-color: red;
 }
