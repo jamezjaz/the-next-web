@@ -35,13 +35,16 @@ nav {
     height: 3rem;
     padding-top: 1.2rem;
     font-size: 0.8rem;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .search-icon {
     height: 100%;
     margin-left: 20rem;
     padding-right: 0.8rem;
-    /* background-color: red; */
     padding-bottom: 2rem;
 }
 
@@ -53,6 +56,88 @@ nav {
 .festival {
     background-color: rgb(207, 207, 9);
     height: 1.8rem;
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 5rem;
+    z-index: 1;
 }
 
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin: 5rem 0;
+}
 
+.main-img,
+.minor-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-image {
+    width: 55rem;
+    height: 30rem;
+}
+
+.main-image img {
+    width: 99%;
+    height: 100%;
+}
+
+.minor-image img {
+    width: 28rem;
+    height: 14.4rem;
+}
+
+.img-container {
+    padding-bottom: 1rem;
+}
+
+.date,
+.tnw-logo,
+.main-img-info,
+.minor-img-info {
+    position: absolute;
+}
+
+.date {
+    bottom: 28rem;
+    left: 42rem;
+}
+
+.tnw-logo {
+    width: 25rem;
+    bottom: 23rem;
+    left: 3rem;
+}
+
+.main-img-info {
+    bottom: 14rem;
+    left: 3rem;
+    line-height: 2;
+}
+
+.img-container {
+    position: relative;
+}
+.minor-img-info {
+    bottom: 6rem;
+    left: 1.8rem;
+    line-height: 1.5;
+}
+
+.latest-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    padding: 4rem 5rem;
+}
+
+.footer-img {
+    background-color: red;
+}
