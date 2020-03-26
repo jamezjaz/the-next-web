@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -209,6 +213,50 @@ nav {
     height: 5rem;
 }
 
+.latest-deals {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0.5rem 2rem 5rem;
+}
+
+.latest-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    padding: 1rem 5rem;
+}
+
+.latest-items img {
+    width: 18rem;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 33, 33);
+    align-items: center;
+    height: 9rem;
+}
+
+.social-icons > * {
+    display: inline;
+}
+
+.footer-items li {
+    display: inline;
+}
+
+.footer-bottom {
+    background-color: black;
+    text-align: center;
+    height: 6rem;
+}
+
+.footer-top,
+.footer-bottom {
+    color: #aaa;
+}
+
 .footer-img {
-    background-color: red;
+    width: 4rem;
 }
