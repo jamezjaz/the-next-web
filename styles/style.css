@@ -138,6 +138,77 @@ nav {
     padding: 4rem 5rem;
 }
 
+.latest-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.latest-funding {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5rem;
+}
+
+.latest-funding img {
+    width: 4.5rem;
+    height: 3.5rem;
+    position: relative;
+    top: 4.5rem;
+    padding-left: 1rem;
+}
+
+.latest-title {
+    background-color: rgb(255, 30, 0);
+    height: 2.5rem;
+}
+
+.latest-price {
+    background-color: rgb(204, 188, 191);
+    height: 3rem;
+}
+
+.latest-title a,
+.latest-price a {
+    position: absolute;
+    margin-left: 5.5rem;
+    padding-top: 0.5rem;
+}
+
+.latest {
+    padding: 2rem 5rem 3rem 5rem;
+}
+
+.tags {
+    margin: 1rem 0 1rem 0.7rem;
+}
+
+.tags a {
+    line-height: 1.5;
+}
+
+.most-popular {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 4rem 5rem;
+}
+
+.popular-main-img {
+    width: 23rem;
+    height: 18rem;
+}
+
+.popular-minor-img {
+    width: 5rem;
+    height: 5rem;
+}
+
 .footer-img {
     background-color: red;
 }
