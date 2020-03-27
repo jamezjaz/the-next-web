@@ -8,6 +8,7 @@ nav {
     text-align: center;
     background-color: black;
     color: rgb(175, 170, 170);
+    width: 100%;
     height: 2rem;
     padding-top: 0.3rem;
     font-size: 0.9rem;
@@ -33,16 +34,24 @@ nav {
 .bottom-nav {
     display: flex;
     justify-content: space-between;
-    padding-left: 4rem;
     background-color: rgb(219, 213, 213);
     color: rgb(49, 47, 47);
-    height: 3rem;
-    padding-top: 1.2rem;
-    font-size: 0.8rem;
     width: 100%;
+    height: 3rem;
+    font-size: 0.8rem;
     position: fixed;
-    overflow: hidden;
     z-index: 1;
+}
+
+.bottom-nav > div {
+    padding-top: 1.2rem;
+}
+
+.logo {
+    background: linear-gradient(to right, rgb(180, 41, 127), red);
+    width: 6rem;
+    height: 100%;
+    padding: 1rem 0.5rem 0 0.8rem;
 }
 
 .search-icon {
@@ -74,6 +83,34 @@ nav {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   margin: 5rem 0;
+}
+
+.main-section h2 a, h5 a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.main-section h5 {
+    font-size: 0.8rem;
+}
+
+.main-img-info h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.main-img-info small, a, i,
+.minor-img-info small, a, i {
+    color: rgb(24, 22, 22);
+    text-decoration: none;
+}
+
+.author {
+    font-size: 0.8rem;
+}
+
+.minor-img-info h2 {
+    font-size: 1.6rem;
 }
 
 .main-img,
@@ -110,6 +147,7 @@ nav {
 }
 
 .date {
+    color: whitesmoke;
     bottom: 28rem;
     left: 42rem;
 }
@@ -121,31 +159,58 @@ nav {
 }
 
 .main-img-info {
-    bottom: 14rem;
+    bottom: 4rem;
     left: 3rem;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 .img-container {
     position: relative;
 }
 .minor-img-info {
-    bottom: 6rem;
+    bottom: 2.5rem;
     left: 1.8rem;
-    line-height: 1.5;
+    line-height: 1.2;
+}
+
+.news-heading {
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+.latest-h3 {
+    font-size: 2rem;
+}
+
+.news-heading a,
+.latest-heading a,
+.fa-angle-right {
+    color: #f42;
 }
 
 .latest-news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
-    padding: 4rem 5rem;
+    padding: 2rem 5rem;
+}
+
+.latest-news p a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+}
+
+.latest-news small,
+.latest-news small a {
+    font-size: 0.7rem;
+    color: rgb(121, 117, 117);
 }
 
 .latest-heading {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .info {
@@ -184,16 +249,42 @@ nav {
     padding-top: 0.5rem;
 }
 
+.latest-title h4 {
+    color: whitesmoke;
+}
+
+.latest-price h5 {
+    font-weight: bolder;
+}
+
+.latest-price h6,
+.tags {
+    color: rgb(117, 114, 114);
+    font-weight: lighter;
+    line-height: 1.5rem;
+}
+
+.tags {
+    border-bottom: 0.06rem solid rgb(252, 25, 9);
+}
+
+.description1 {
+    font-size: 0.9rem;
+    color: rgb(117, 114, 114);
+    font-weight: lighter;
+    line-height: 1.2rem;
+}
+
+.description2 {
+    color: rgb(184, 181, 181);
+}
+
 .latest {
     padding: 2rem 5rem 3rem 5rem;
 }
 
 .tags {
     margin: 1rem 0 1rem 0.7rem;
-}
-
-.tags a {
-    line-height: 1.5;
 }
 
 .most-popular {
@@ -203,14 +294,96 @@ nav {
     padding: 4rem 5rem;
 }
 
+.popular {
+    margin-bottom: 2rem;
+}
+
+.popular a {
+    font-size: 1.7rem;
+    color: #f42;
+}
+
+.popular-container {
+    position: relative;
+}
+
 .popular-main-img {
     width: 23rem;
     height: 18rem;
 }
 
+.popular-info {
+    position: absolute;
+    line-height: 1.3;
+    top: 16rem;
+    left: 1rem;
+}
+
+.popular-info h5 {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: rgb(161, 157, 157);
+}
+
+.popular-info h2 a {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(219, 213, 213);
+}
+
+.popular-info small {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: rgb(148, 144, 144);
+}
+
+.popular-info small a {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: rgb(148, 144, 144);
+}
+
 .popular-minor-img {
     width: 5rem;
     height: 5rem;
+}
+
+.latest-h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h4-heading {
+    padding: 0.7rem 0 0 0.7rem;
+    line-height: 1.2;
+    background-color: rgb(243, 203, 210);
+}
+
+.h4-heading h4,
+.h4-heading h5 a {
+    color: #f42;
+}
+
+.h4-heading h4 {
+    font-weight: lighter;
+}
+
+.list {
+    margin: 1rem 0;
+}
+
+.list li a {
+    font-size: 0.8rem;
+    color: rgb(100, 98, 98);
+}
+
+.list li::before {
+    content: "\2022";
+    color: #f42;
+}
+
+.list-hr {
+    border: 0.03rem solid rgb(235, 229, 229);
 }
 
 .latest-deals {
