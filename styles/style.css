@@ -7,7 +7,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
     background-color: black;
-    color: rgb(175, 170, 170);
+    color: rgb(233, 227, 227);
     width: 100%;
     height: 2rem;
     padding-top: 0.3rem;
@@ -17,6 +17,10 @@ nav {
 .top-nav > * {
     display: inline;
     padding: 0 1rem;
+}
+
+.top-nav a {
+    color: rgb(233, 227, 227);
 }
 
 .right {
