@@ -20,7 +20,15 @@ nav {
 }
 
 .top-nav a {
-    color: rgb(233, 227, 227);
+    color: rgb(158, 152, 152);
+}
+
+.top-nav a:hover {
+    color: white;
+}
+
+.news {
+    color: white !important;
 }
 
 .right {
@@ -45,7 +53,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(219, 213, 213);
-    color: rgb(49, 47, 47);
     width: 100%;
     height: 3rem;
     font-size: 0.8rem;
@@ -54,6 +61,16 @@ header {
 
 .bottom-nav > div {
     padding-top: 1.2rem;
+}
+
+.bottom-nav a,
+.bottom-nav a i {
+    color: rgb(128, 122, 122);
+}
+
+.bottom-nav a:hover,
+.bottom-nav a i:hover {
+    color: black;
 }
 
 .logo {
@@ -68,6 +85,7 @@ header {
     margin-left: 20rem;
     padding-right: 0.8rem;
     padding-bottom: 2rem;
+    font-size: 1rem;
 }
 
 .fa-search {
@@ -85,8 +103,7 @@ header {
 .main-section {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
-  margin: 5rem 0;
+  margin: 0.2rem 0;
 }
 
 .main-section h2 a, h5 a {
@@ -111,6 +128,10 @@ header {
 
 .author {
     font-size: 0.8rem;
+}
+
+.author a:hover {
+    color: rgb(212, 209, 209);
 }
 
 .minor-img-info h2 {
@@ -179,24 +200,37 @@ header {
 
 .news-heading {
     font-size: 2rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
-.latest-h3 {
+.latest-h3,
+.latest-deals {
     font-size: 2rem;
+}
+
+.latest-h3 a:hover,
+.info a:hover,
+.news-heading a:hover {
+    color: black;
 }
 
 .news-heading a,
 .latest-heading a,
-.fa-angle-right {
+.fa-angle-right,
+.latest-deals a {
     color: #f42;
+}
+
+.fa-angle-right:hover {
+    color: black;
 }
 
 .latest-news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
-    padding: 2rem 5rem;
+    padding: 2rem 0;
+    margin: 0 3rem 0 3rem;
 }
 
 .latest-news p a {
@@ -205,21 +239,32 @@ header {
     color: rgb(7, 7, 7);
 }
 
+.latest-news p a:hover {
+    color: rgb(255, 30, 0);
+}
+
 .latest-news small,
 .latest-news small a {
     font-size: 0.7rem;
     color: rgb(121, 117, 117);
 }
 
+.latest-news small a:hover {
+    color: black;
+}
+
 .latest-heading {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0.5rem;
 }
 
 .info {
   display: flex;
   justify-content: space-around;
+}
+
+.info a {
+    padding: 0 0.2rem;
 }
 
 .latest-funding {
@@ -269,7 +314,16 @@ header {
 }
 
 .tags {
+    margin: 1rem 0 1rem 0.7rem;
     border-bottom: 0.06rem solid rgb(252, 25, 9);
+}
+
+.tags a {
+    color: rgb(114, 112, 112);
+}
+
+.tags a:hover {
+    color: black;
 }
 
 .description1 {
@@ -284,18 +338,14 @@ header {
 }
 
 .latest {
-    padding: 2rem 5rem 3rem 5rem;
-}
-
-.tags {
-    margin: 1rem 0 1rem 0.7rem;
+    padding: 2rem 3rem;
 }
 
 .most-popular {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    padding: 4rem 5rem;
+    padding: 2rem 3rem 3rem 3rem;
 }
 
 .popular {
@@ -305,6 +355,10 @@ header {
 .popular a {
     font-size: 1.7rem;
     color: #f42;
+}
+
+.popular a:hover {
+    color: black;
 }
 
 .popular-container {
@@ -335,6 +389,10 @@ header {
     color: rgb(219, 213, 213);
 }
 
+.popular-info h2 a:hover {
+    text-decoration: underline;
+}
+
 .popular-info small {
     font-size: 0.8rem;
     font-weight: lighter;
@@ -345,6 +403,10 @@ header {
     font-size: 0.8rem;
     font-weight: lighter;
     color: rgb(148, 144, 144);
+}
+
+.popular-info small a:hover {
+    color: white;
 }
 
 .popular-minor-img {
@@ -372,6 +434,10 @@ header {
     font-weight: lighter;
 }
 
+.h4-heading a:hover {
+    text-decoration: underline;
+}
+
 .list {
     margin: 1rem 0;
 }
@@ -379,6 +445,10 @@ header {
 .list li a {
     font-size: 0.8rem;
     color: rgb(100, 98, 98);
+}
+
+.list li a:hover {
+    color: black;
 }
 
 .list li::before {
@@ -393,18 +463,56 @@ header {
 .latest-deals {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0.5rem 2rem 5rem;
+    margin: 2rem 3rem 0 3rem;
+}
+
+.latest-deals :nth-child(2) {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.latest-deals a:hover {
+    color: black;
+}
+
+.discount {
+    position: relative;
+    bottom: 11rem;
+    left: 12.5rem;
+    width: 5rem;
+    transform: rotate(35deg);
+    font-weight: bolder;
+}
+
+.latest-items-h4 h4 {
+    font-weight: 900;
+}
+
+.latest-items-h4 small {
+    font-size: 0.8rem;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.latest-items-h4 span {
+    color: grey;
+    font-weight: bold;
+}
+
+.latest-items-h4 a:hover {
+    color: #ff4422;
 }
 
 .latest-items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.5rem;
-    padding: 1rem 5rem;
+    padding: 2rem 0;
+    margin: 0 3rem 0 3rem;
 }
 
 .latest-items img {
-    width: 18rem;
+    width: 17rem;
 }
 
 .footer-top {
@@ -415,18 +523,40 @@ header {
     height: 9rem;
 }
 
+.social-icons {
+    padding: 2rem 2rem;
+    word-spacing: 0.8rem;
+}
+
 .social-icons > * {
     display: inline;
+    font-size: 2rem;
 }
 
 .footer-items li {
     display: inline;
+    font-size: 0.85rem;
+    word-spacing: 1rem;
+}
+
+.footer-items li a {
+    color: #aaa;
+}
+
+.footer-items li a:hover {
+    color: whitesmoke;
 }
 
 .footer-bottom {
+    font-size: 0.8rem;
     background-color: black;
     text-align: center;
     height: 6rem;
+    padding-top: 2.2rem;
+}
+
+.footer-bottom b {
+    color: #ff4422;
 }
 
 .footer-top,
