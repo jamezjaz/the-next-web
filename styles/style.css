@@ -1,97 +1,101 @@
 body {
-    overflow-x: hidden;
-    font-family: sans-serif;
+  overflow-x: hidden;
+  font-family: sans-serif;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    background-color: black;
-    color: rgb(233, 227, 227);
-    width: 100%;
-    height: 2rem;
-    padding-top: 0.3rem;
-    font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  background-color: black;
+  color: rgb(233, 227, 227);
+  width: 100%;
+  height: 2rem;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.top-nav {
+  text-align: start;
 }
 
 .top-nav > * {
-    display: inline;
-    padding: 0 1rem;
+  display: inline;
+  padding: 0 1rem;
 }
 
 .top-nav a {
-    color: rgb(158, 152, 152);
+  color: rgb(158, 152, 152);
 }
 
 .top-nav a:hover {
-    color: white;
+  color: white;
 }
 
 .news {
-    color: white !important;
+  color: white !important;
 }
 
 .right {
-    margin-left: 20rem;
+  text-align: end;
 }
 
 .dropdown-content {
-    display: none;
+  display: none;
 }
 
 .dropdown-content a {
-      display: block;
+  display: block;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    z-index: 2;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .bottom-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(219, 213, 213);
-    width: 100%;
-    height: 3rem;
-    font-size: 0.8rem;
-    z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 213, 213);
+  width: 100%;
+  height: 3rem;
+  font-size: 0.8rem;
+  z-index: 1;
 }
 
 .bottom-nav > div {
-    padding-top: 1.2rem;
+  padding: 1.2rem 0 1.2rem 1rem;
 }
 
 .bottom-nav a,
 .bottom-nav a i {
-    color: rgb(128, 122, 122);
+  color: rgb(128, 122, 122);
 }
 
 .bottom-nav a:hover,
 .bottom-nav a i:hover {
-    color: black;
+  color: black;
 }
 
 .logo {
-    background: linear-gradient(to right, rgb(180, 41, 127), red);
-    width: 6rem;
-    height: 100%;
-    padding: 1rem 0.5rem 0 0.8rem;
+  background: linear-gradient(to right, rgb(180, 41, 127), red);
+  width: 6rem;
+  height: 100%;
+  padding: 1rem 0.5rem 0 0.8rem;
 }
 
 .search-icon {
-    height: 100%;
-    margin-left: 20rem;
-    padding-right: 0.8rem;
-    padding-bottom: 2rem;
-    font-size: 1rem;
+  height: 100%;
+  margin-left: 20rem;
+  padding-right: 0.8rem;
+  padding-bottom: 2rem;
+  font-size: 1rem;
 }
 
 .fa-search {
-    border-left: 0.1rem solid rgb(122, 119, 119);
-    padding-left: 0.5rem;
+  border-left: 0.1rem solid rgb(122, 119, 119);
+  padding-left: 0.5rem;
 }
 
 .festival {
@@ -181,7 +185,7 @@ header {
 .date {
     color: whitesmoke;
     bottom: 28rem;
-    left: 42rem;
+    left: 40rem;
 }
 
 .tnw-logo {
@@ -594,12 +598,18 @@ header {
     footer {
         width: 100%;
     }
-    .main-section {
-        width: 100%;
-    }
   }
 
 @media only screen and (max-width: 1024px) {
+    .right {
+        display: none;
+    }
+    nav {
+        grid-template-columns: 1fr;
+    }
+    .bottom-nav {
+        max-width: max-content;
+    }
     .main-image,
     .tnw-logo,
     .date {
@@ -619,6 +629,9 @@ header {
     .latest-items {
         grid-template-columns: repeat(3, 1fr);
     }
+    .last-index {
+        display: none;
+    }
     .most-popular {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -628,6 +641,20 @@ header {
   }
 
   @media only screen and (max-width: 768px) {
+    nav {
+      font-size: 0.6rem;
+    }
+    .bottom-nav > div {
+        display: none;
+    }
+    .search-icon {
+        margin-left: 39rem;
+        display: inline !important;
+    }
+    .festival {
+        height: 2.8rem;
+        padding-top: 1rem;
+    }
     .main-section,
     .latest-news,
     .latest-funding,
