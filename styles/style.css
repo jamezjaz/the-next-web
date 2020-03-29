@@ -146,14 +146,20 @@ header {
     position: relative;
 }
 
-.main-image {
+.main-image,
+.bg-main-img {
     width: 55rem;
     height: 30rem;
 }
 
-.main-image img {
+.main-img,
+.bg-main-img img {
     width: 99%;
     height: 100%;
+}
+
+.bg-main-img {
+    display: none;
 }
 
 .minor-image img {
@@ -531,6 +537,7 @@ header {
     flex-direction: column;
     background-color: rgb(34, 33, 33);
     align-items: center;
+    width: 100%;
     height: 9rem;
 }
 
@@ -563,6 +570,7 @@ header {
     background-color: black;
     text-align: center;
     height: 6rem;
+    width: 100%;
     padding-top: 2.2rem;
 }
 
@@ -578,3 +586,115 @@ header {
 .footer-img {
     width: 4rem;
 }
+
+@media only screen and (min-width: 1024px) {
+    .logo {
+      display: none;
+    }
+    footer {
+        width: 100%;
+    }
+    .main-section {
+        width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+    .main-image,
+    .tnw-logo,
+    .date {
+        display: none;
+    }
+    .bg-main-img {
+        display: block;
+    }
+    .main-img-info h2 {
+        font-size: 2.5rem;
+    }
+    .minor-img-info h2 {
+        font-size: 1.4rem;
+    }
+    .latest-news,
+    .latest-funding,
+    .latest-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .most-popular {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-bottom {
+        font-size: 0.6rem;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .main-section,
+    .latest-news,
+    .latest-funding,
+    .most-popular,
+    .latest-items {
+      display: block;
+    }
+    .bg-main-img {
+        height: 6rem;
+    }
+    .main-img-info {
+        bottom: 0.5rem;
+        left: 3rem;
+    }
+    .main-img-info h2,
+    .minor-img-info h2 {
+        font-size: 1.5rem;
+    }
+    .minor-image img {
+        width: 55rem;
+        height: 7rem;
+    }
+    .latest-news img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .latest-h3 {
+        font-size: 1rem;
+    }
+    .info a {
+        padding: 0 0.1rem;
+    }
+    .popular-main-img {
+        width: 85%;
+    }
+    .popular-info h5 {
+        font-size: 0.5rem;
+    }
+    .popular-info h2 {
+        font-size: 0.1rem;
+    }
+    .popular-info small a,
+    .popular-info small {
+        font-size: 0.6rem;
+    }
+    .h4-heading {
+        width: 73%;
+        background-color: transparent;
+    }
+    .latest-h4,
+    .list li a {
+        justify-content: flex-start;
+        font-size: 0.7rem;
+    }
+    .latest-items img {
+        width: 5rem;
+    }
+    .discount {
+        display: none;
+    }
+    .latest-items-h4 {
+        font-size: 0.7rem;
+    }
+    .latest-items-h4 small {
+        font-size: 0.6rem;
+    }
+    footer {
+        width: 100%;
+    }
+  }
