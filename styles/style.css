@@ -516,7 +516,7 @@ header {
 }
 
 .latest-items-h4 a:hover {
-  color: #ff4422;
+  color: #f42;
 }
 
 .latest-items {
@@ -574,7 +574,7 @@ header {
 }
 
 .footer-bottom b {
-  color: #ff4422;
+  color: #f42;
 }
 
 .footer-top,
@@ -587,169 +587,169 @@ header {
 }
 
 @media only screen and (min-width: 1024px) {
-    .logo {
-      display: none;
-    }
-
-    footer {
-      width: 100%;
-    }
+  .logo {
+    display: none;
   }
+
+  footer {
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
-    .right {
-      display: none;
-    }
-
-    nav {
-      grid-template-columns: 1fr;
-    }
-
-    .bottom-nav {
-      max-width: max-content;
-    }
-
-    .main-image,
-    .tnw-logo,
-    .date {
-      display: none;
-    }
-
-    .bg-main-img {
-      display: block;
-    }
-
-    .main-img-info h2 {
-      font-size: 2.5rem;
-    }
-
-    .minor-img-info h2 {
-      font-size: 1.4rem;
-    }
-
-    .latest-news,
-    .latest-funding,
-    .latest-items {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    .last-index {
-      display: none;
-    }
-
-    .most-popular {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .footer-bottom {
-      font-size: 0.6rem;
-    }
+  .right {
+    display: none;
   }
 
-  @media only screen and (max-width: 768px) {
-    nav {
-      font-size: 0.6rem;
-    }
-
-    .bottom-nav > div {
-      display: none;
-    }
-
-    .search-icon {
-      margin-left: 39rem;
-      display: inline !important;
-    }
-
-    .festival {
-      height: 2.8rem;
-      padding-top: 1rem;
-    }
-
-    .main-section,
-    .latest-news,
-    .latest-funding,
-    .most-popular,
-    .latest-items {
-      display: block;
-    }
-
-    .bg-main-img {
-      height: 6rem;
-    }
-
-    .main-img-info {
-      bottom: 0.5rem;
-      left: 3rem;
-    }
-
-    .main-img-info h2,
-    .minor-img-info h2 {
-      font-size: 1.5rem;
-    }
-
-    .minor-image img {
-      width: 55rem;
-      height: 7rem;
-    }
-
-    .latest-news img {
-      width: 4rem;
-      height: 4rem;
-    }
-
-    .latest-h3 {
-      font-size: 1rem;
-    }
-
-    .info a {
-      padding: 0 0.1rem;
-    }
-
-    .popular-main-img {
-      width: 85%;
-    }
-
-    .popular-info h5 {
-      font-size: 0.5rem;
-    }
-
-    .popular-info h2 {
-      font-size: 0.1rem;
-    }
-
-    .popular-info small a,
-    .popular-info small {
-      font-size: 0.6rem;
-    }
-
-    .h4-heading {
-      width: 73%;
-      background-color: transparent;
-    }
-
-    .latest-h4,
-    .list li a {
-      justify-content: flex-start;
-      font-size: 0.7rem;
-    }
-
-    .latest-items img {
-      width: 5rem;
-    }
-
-    .discount {
-      display: none;
-    }
-
-    .latest-items-h4 {
-      font-size: 0.7rem;
-    }
-
-    .latest-items-h4 small {
-      font-size: 0.6rem;
-    }
-
-    footer {
-        width: 100%;
-    }
+  nav {
+    grid-template-columns: 1fr;
   }
+
+  .bottom-nav {
+    max-width: max-content;
+  }
+
+  .main-image,
+  .tnw-logo,
+  .date {
+    display: none;
+  }
+
+  .bg-main-img {
+    display: block;
+  }
+
+  .main-img-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .minor-img-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .latest-news,
+  .latest-funding,
+  .latest-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .last-index {
+    display: none;
+  }
+
+  .most-popular {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-bottom {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    font-size: 0.6rem;
+  }
+
+  .bottom-nav > div {
+    display: none;
+  }
+
+  .search-icon {
+    margin-left: 39rem;
+    display: inline !important;
+  }
+
+  .festival {
+    height: 2.8rem;
+    padding-top: 1rem;
+  }
+
+  .main-section,
+  .latest-news,
+  .latest-funding,
+  .most-popular,
+  .latest-items {
+    display: block;
+  }
+
+  .bg-main-img {
+    height: 6rem;
+  }
+
+  .main-img-info {
+    bottom: 0.5rem;
+    left: 3rem;
+  }
+
+  .main-img-info h2,
+  .minor-img-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .minor-image img {
+    width: 55rem;
+    height: 7rem;
+  }
+
+  .latest-news img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .latest-h3 {
+    font-size: 1rem;
+  }
+
+  .info a {
+    padding: 0 0.1rem;
+  }
+
+  .popular-main-img {
+    width: 85%;
+  }
+
+  .popular-info h5 {
+    font-size: 0.5rem;
+  }
+
+  .popular-info h2 {
+    font-size: 0.1rem;
+  }
+
+  .popular-info small a,
+  .popular-info small {
+    font-size: 0.6rem;
+  }
+
+  .h4-heading {
+    width: 73%;
+    background-color: transparent;
+  }
+
+  .latest-h4,
+  .list li a {
+    justify-content: flex-start;
+    font-size: 0.7rem;
+  }
+
+  .latest-items img {
+    width: 5rem;
+  }
+
+  .discount {
+    display: none;
+  }
+
+  .latest-items-h4 {
+    font-size: 0.7rem;
+  }
+
+  .latest-items-h4 small {
+    font-size: 0.6rem;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
