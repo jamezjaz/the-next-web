@@ -54,10 +54,6 @@ h5 a {
   color: #f42;
 }
 
-.info a {
-  padding: 0 0.1rem;
-}
-
 .latest-title a,
 .latest-price a {
   position: absolute;
@@ -72,6 +68,10 @@ h5 a {
 .popular a {
   font-size: 1.7rem;
   color: #f42;
+}
+
+.info a {
+  padding: 0 0.1rem;
 }
 
 .list li a {
