@@ -70,11 +70,9 @@ h5 a {
   color: #f42;
 }
 
-.info a {
-  padding: 0 0.1rem;
-}
-
 .list li a {
+  justify-content: flex-start;
+  font-size: 0.7rem;
   font-size: 0.8rem;
   color: rgb(100, 98, 98);
 }
@@ -743,8 +741,7 @@ header {
     background-color: transparent;
   }
 
-  .latest-h4,
-  .list li a {
+  .latest-h4 {
     justify-content: flex-start;
     font-size: 0.7rem;
   }
