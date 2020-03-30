@@ -24,6 +24,12 @@ nav {
   padding: 0 1rem;
 }
 
+a, 
+i {
+  color: rgb(24, 22, 22);
+  text-decoration: none;
+}
+
 h5 a {
   color: whitesmoke;
   text-decoration: none;
@@ -135,8 +141,8 @@ header {
   font-weight: bolder;
 }
 
-.main-img-info small, a, i,
-.minor-img-info small, a, i {
+.main-img-info small,
+.minor-img-info small {
   color: rgb(24, 22, 22);
   text-decoration: none;
 }
