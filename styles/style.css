@@ -70,6 +70,10 @@ h5 a {
   color: #f42;
 }
 
+.info a {
+  padding: 0 0.2rem;
+}
+
 .list li a {
   justify-content: flex-start;
   font-size: 0.7rem;
@@ -358,10 +362,6 @@ header {
 .info {
   display: flex;
   justify-content: space-around;
-}
-
-.info a {
-  padding: 0 0.2rem;
 }
 
 .latest-funding {
