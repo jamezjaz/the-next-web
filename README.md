@@ -2,9 +2,7 @@
 > This is a clone of The Next Web website [thenextweb.com/](https://thenextweb.com/) web page
 
 ## Preview
-![The Next Web Page](https://user-images.githubusercontent.com/57812000/77900081-1fcb1680-7243-11ea-9943-1f1bb1c3d832.png)
-
-
+![The Next Web Page](https://user-images.githubusercontent.com/57812000/77912036-77737d00-7257-11ea-8038-bf7220ad738c.png)
 
 
 ### Additional description about the project and its features
@@ -24,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/43d4b7c5b7b32306484b402af11508043145c117/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/cabdb1e120a4bc378d8fe41ba08f1e7e268c7f4b/index.html)
 
 
 ## CDNs
