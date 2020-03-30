@@ -24,7 +24,7 @@ nav {
   padding: 0 1rem;
 }
 
-a, 
+a,
 i {
   color: rgb(24, 22, 22);
   text-decoration: none;
@@ -43,9 +43,78 @@ h5 a {
   display: block;
 }
 
+.bottom-nav a,
+.bottom-nav a i {
+  color: rgb(128, 122, 122);
+}
+
+.news-heading a,
+.latest-heading a,
+.latest-deals a {
+  color: #f42;
+}
+
+.info a {
+  padding: 0 0.1rem;
+}
+
+.latest-title a,
+.latest-price a {
+  position: absolute;
+  margin-left: 5.5rem;
+  padding-top: 0.5rem;
+}
+
+.tags a {
+  color: rgb(114, 112, 112);
+}
+
+.popular a {
+  font-size: 1.7rem;
+  color: #f42;
+}
+
 .list li a {
   font-size: 0.8rem;
   color: rgb(100, 98, 98);
+}
+
+.main-section h2 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.latest-news p a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+}
+
+.latest-news small a {
+  font-size: 0.7rem;
+  color: rgb(121, 117, 117);
+}
+
+.popular-info h2 a {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(219, 213, 213);
+}
+
+.popular-info small,
+.popular-info small a {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: rgb(148, 144, 144);
+}
+
+.h4-heading h4,
+.h4-heading h5 a {
+  color: #f42;
+}
+
+.footer-items li a {
+  color: #aaa;
 }
 
 .top-nav a:hover {
@@ -82,16 +151,6 @@ header {
 
 .bottom-nav > div {
   padding: 1.2rem 0 1.2rem 1rem;
-}
-
-.bottom-nav a,
-.bottom-nav a i {
-  color: rgb(128, 122, 122);
-}
-
-.main-section h2 a {
-  color: whitesmoke;
-  text-decoration: none;
 }
 
 .bottom-nav a:hover,
@@ -188,6 +247,7 @@ header {
 }
 
 .img-container {
+  position: relative;
   padding-bottom: 1rem;
 }
 
@@ -216,10 +276,6 @@ header {
   line-height: 1.8;
 }
 
-.img-container {
-  position: relative;
-}
-
 .minor-img-info {
   bottom: 2.5rem;
   left: 1.8rem;
@@ -242,10 +298,7 @@ header {
   color: black;
 }
 
-.news-heading a,
-.latest-heading a,
-.fa-angle-right,
-.latest-deals a {
+.fa-angle-right {
   color: #f42;
 }
 
@@ -262,18 +315,31 @@ header {
   line-height: 1.3;
 }
 
-.latest-news p a {
-  font-size: 1rem;
-  font-weight: bold;
-  color: rgb(7, 7, 7);
+.tags a:hover {
+  color: black;
+}
+
+.popular a:hover {
+  color: black;
+}
+
+.h4-heading a:hover {
+  text-decoration: underline;
+}
+
+.latest-deals a:hover {
+  color: black;
+}
+
+.latest-items-h4 a:hover {
+  color: #f42;
 }
 
 .latest-news p a:hover {
   color: rgb(255, 30, 0);
 }
 
-.latest-news small,
-.latest-news small a {
+.latest-news small {
   font-size: 0.7rem;
   color: rgb(121, 117, 117);
 }
@@ -324,13 +390,6 @@ header {
   height: 3rem;
 }
 
-.latest-title a,
-.latest-price a {
-  position: absolute;
-  margin-left: 5.5rem;
-  padding-top: 0.5rem;
-}
-
 .latest-title h4 {
   color: whitesmoke;
 }
@@ -349,14 +408,6 @@ header {
 .tags {
   margin: 1rem 0 1rem 0.7rem;
   border-bottom: 0.06rem solid rgb(252, 25, 9);
-}
-
-.tags a {
-  color: rgb(114, 112, 112);
-}
-
-.tags a:hover {
-  color: black;
 }
 
 .description1 {
@@ -385,15 +436,6 @@ header {
   margin-bottom: 2rem;
 }
 
-.popular a {
-  font-size: 1.7rem;
-  color: #f42;
-}
-
-.popular a:hover {
-  color: black;
-}
-
 .popular-container {
   position: relative;
 }
@@ -416,21 +458,8 @@ header {
   color: rgb(161, 157, 157);
 }
 
-.popular-info h2 a {
-  font-size: 1rem;
-  font-weight: bolder;
-  color: rgb(219, 213, 213);
-}
-
 .popular-info h2 a:hover {
   text-decoration: underline;
-}
-
-.popular-info small,
-.popular-info small a {
-  font-size: 0.8rem;
-  font-weight: lighter;
-  color: rgb(148, 144, 144);
 }
 
 .popular-info small a:hover {
@@ -453,17 +482,8 @@ header {
   background-color: rgb(243, 203, 210);
 }
 
-.h4-heading h4,
-.h4-heading h5 a {
-  color: #f42;
-}
-
 .h4-heading h4 {
   font-weight: lighter;
-}
-
-.h4-heading a:hover {
-  text-decoration: underline;
 }
 
 .list {
@@ -499,10 +519,6 @@ header {
   font-weight: lighter;
 }
 
-.latest-deals a:hover {
-  color: black;
-}
-
 .discount {
   position: relative;
   bottom: 11rem;
@@ -525,10 +541,6 @@ header {
 .latest-items-h4 span {
   color: grey;
   font-weight: bold;
-}
-
-.latest-items-h4 a:hover {
-  color: #f42;
 }
 
 .latest-items {
@@ -566,10 +578,6 @@ header {
   display: inline;
   font-size: 0.85rem;
   word-spacing: 1rem;
-}
-
-.footer-items li a {
-  color: #aaa;
 }
 
 .footer-items li a:hover {
@@ -711,10 +719,6 @@ header {
 
   .latest-h3 {
     font-size: 1rem;
-  }
-
-  .info a {
-    padding: 0 0.1rem;
   }
 
   .popular-main-img {
