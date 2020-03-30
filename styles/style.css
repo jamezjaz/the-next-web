@@ -24,8 +24,22 @@ nav {
   padding: 0 1rem;
 }
 
+h5 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 .top-nav a {
   color: rgb(158, 152, 152);
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.list li a {
+  font-size: 0.8rem;
+  color: rgb(100, 98, 98);
 }
 
 .top-nav a:hover {
@@ -42,10 +56,6 @@ nav {
 
 .dropdown-content {
   display: none;
-}
-
-.dropdown-content a {
-  display: block;
 }
 
 header {
@@ -71,6 +81,11 @@ header {
 .bottom-nav a,
 .bottom-nav a i {
   color: rgb(128, 122, 122);
+}
+
+.main-section h2 a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .bottom-nav a:hover,
@@ -109,11 +124,6 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 0.2rem 0.5rem;
-}
-
-.main-section h2 a, h5 a {
-  color: whitesmoke;
-  text-decoration: none;
 }
 
 .main-section h5 {
@@ -203,6 +213,7 @@ header {
 .img-container {
   position: relative;
 }
+
 .minor-img-info {
   bottom: 2.5rem;
   left: 1.8rem;
@@ -451,11 +462,6 @@ header {
 
 .list {
   margin: 1rem 0;
-}
-
-.list li a {
-  font-size: 0.8rem;
-  color: rgb(100, 98, 98);
 }
 
 .list li a:hover {
