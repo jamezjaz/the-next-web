@@ -2,8 +2,8 @@
 > This is a clone of The Next Web website [thenextweb.com/](https://thenextweb.com/) responsive web page
 
 ## Preview
-![The Next Web Page](https://user-images.githubusercontent.com/57812000/78063677-3746f400-7356-11ea-8d22-2e637a4b9d37.png)
-![The Next Web Page2](https://user-images.githubusercontent.com/57812000/78063694-39a94e00-7356-11ea-9dce-dd79b61d4f80.png)
+![The Next Web Page](https://user-images.githubusercontent.com/57812000/78065236-93ab1300-7358-11ea-8ffd-83eb7908046d.png)
+![The Next Web Page2](https://user-images.githubusercontent.com/57812000/78065240-973e9a00-7358-11ea-9363-01bc5cdb30bd.png)
 
 
 ### Additional description about the project and its features
