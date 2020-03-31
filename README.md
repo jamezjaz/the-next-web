@@ -1,5 +1,5 @@
 # The Next Web
-> This is a clone of The Next Web website [thenextweb.com/](https://thenextweb.com/) web page
+> This is a clone of The Next Web website [thenextweb.com/](https://thenextweb.com/) responsive web page
 
 ## Preview
 ![The Next Web Page](https://user-images.githubusercontent.com/57812000/78063677-3746f400-7356-11ea-8d22-2e637a4b9d37.png)
@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/cabdb1e120a4bc378d8fe41ba08f1e7e268c7f4b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/2c7028ae03f33e4ef87ae6ce3a5ffaa18baf2333/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
