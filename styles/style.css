@@ -43,6 +43,12 @@ h5 a {
   display: block;
 }
 
+.social-icons i {
+  border-radius: 2rem;
+  padding: 0.5rem 0.6rem;
+  background: rgb(49, 49, 49);
+}
+
 .bottom-nav a,
 .bottom-nav a i {
   color: rgb(128, 122, 122);
@@ -563,12 +569,6 @@ header {
   font-size: 1.5rem;
 }
 
-.social-icons i {
-  border-radius: 2rem;
-  padding: 0.5rem 0.6rem;
-  background: rgb(49, 49, 49);
-}
-
 .footer-items li {
   display: inline;
   font-size: 0.85rem;
@@ -697,17 +697,17 @@ footer {
     position: relative;
     background-size: cover;
   }
-  
+
   .minor1 {
     grid-area: photo1;
     background-size: cover;
   }
-  
+
   .minor2 {
     grid-area: photo2;
     background-size: cover;
   }
-  
+
   .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
