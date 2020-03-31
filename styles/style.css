@@ -710,15 +710,12 @@ footer {
   
   .container {
     display: grid;
-  
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 8rem);
-  
     grid-template-areas:
       "photo photo photo photo"
       "photo1 photo1 photo1 photo1"
       "photo2 photo2 photo2 photo2";
-  
     grid-gap: 0.6rem;
     margin: 0.2rem 0.5rem;
   }
