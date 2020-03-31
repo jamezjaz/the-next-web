@@ -2,7 +2,8 @@
 > This is a clone of The Next Web website [thenextweb.com/](https://thenextweb.com/) web page
 
 ## Preview
-![The Next Web Page](https://user-images.githubusercontent.com/57812000/77912036-77737d00-7257-11ea-8038-bf7220ad738c.png)
+![The Next Web Page](https://user-images.githubusercontent.com/57812000/78063677-3746f400-7356-11ea-8d22-2e637a4b9d37.png)
+![The Next Web Page2](https://user-images.githubusercontent.com/57812000/78063694-39a94e00-7356-11ea-9dce-dd79b61d4f80.png)
 
 
 ### Additional description about the project and its features
