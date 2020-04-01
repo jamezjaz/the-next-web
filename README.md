@@ -22,6 +22,12 @@
 - CSS
 - Media queries
 
+## Validators
+
+- W3C validator for HTML
+- Stickler
+- Stylelint for VSCode
+
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/e88c3313742f2ce7d5a51195bf33be172a39c532/index.html) hosted on [githack](https://raw.githack.com)
@@ -38,7 +44,7 @@
 ## Authors
 
 ### Author 1
-
+ 👤 Odufu James C.
 - Github: [@githubhandle](https://github.com/jamezjaz)
 - Twitter: [@twitterhandle](https://twitter.com/jamezjaz90)
 - Linkedin: [@linkedin](https://linkedin.com/in/james-odufu-ba2a4a125)
