@@ -54,11 +54,6 @@ h5 a {
   color: rgb(128, 122, 122);
 }
 
-.bottom-nav li {
-  display: inline;
-  word-spacing: 1rem;
-}
-
 .bottom-nav > * {
   padding-top: 1rem;
 }
@@ -174,7 +169,15 @@ header {
 }
 
 .bottom-nav li {
+  display: inline;
   padding: 1.2rem 0 1.2rem 1rem;
+  word-spacing: 1rem;
+}
+
+.footer-items li {
+  display: inline;
+  font-size: 0.85rem;
+  word-spacing: 1rem;
 }
 
 .bottom-nav li:hover,
@@ -188,7 +191,6 @@ header {
   height: 100%;
   padding: 1rem 0.5rem 0 0.8rem;
 }
-
 
 .fa-search {
   border-left: 0.08rem solid rgb(192, 189, 189);
@@ -588,12 +590,6 @@ header {
   font-size: 1.5rem;
 }
 
-.footer-items li {
-  display: inline;
-  font-size: 0.85rem;
-  word-spacing: 1rem;
-}
-
 .footer-items li a:hover {
   color: whitesmoke;
 }
@@ -715,7 +711,7 @@ footer {
   .harmburger {
     display: inline;
     color: #f42 !important;
-    padding:0  0.5rem;
+    padding: 0 0.5rem;
   }
 
   .festival {
@@ -758,7 +754,6 @@ footer {
   .latest-items {
     display: block;
   }
-
 
   .latest-news-flex {
     display: flex;
