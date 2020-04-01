@@ -4,6 +4,7 @@
 ## Preview
 ![The Next Web Page](https://user-images.githubusercontent.com/57812000/78065236-93ab1300-7358-11ea-8ffd-83eb7908046d.png)
 ![The Next Web Page2](https://user-images.githubusercontent.com/57812000/78065240-973e9a00-7358-11ea-9363-01bc5cdb30bd.png)
+![The Next Web Page3](https://user-images.githubusercontent.com/57812000/78143056-55166680-73f3-11ea-8e9a-2f8de45fa22e.png)
 
 
 ### Additional description about the project and its features
