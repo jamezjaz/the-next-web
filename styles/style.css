@@ -49,9 +49,25 @@ h5 a {
   background: rgb(49, 49, 49);
 }
 
-.bottom-nav a,
-.bottom-nav a i {
+.bottom-nav li,
+.bottom-nav i {
   color: rgb(128, 122, 122);
+}
+
+.bottom-nav li {
+  display: inline;
+  word-spacing: 1rem;
+}
+
+.bottom-nav > * {
+  padding-top: 1rem;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .news-heading a,
@@ -157,12 +173,12 @@ header {
   z-index: 1;
 }
 
-.bottom-nav > div {
+.bottom-nav li {
   padding: 1.2rem 0 1.2rem 1rem;
 }
 
-.bottom-nav a:hover,
-.bottom-nav a i:hover {
+.bottom-nav li:hover,
+.search-icon:hover {
   color: black;
 }
 
@@ -173,17 +189,15 @@ header {
   padding: 1rem 0.5rem 0 0.8rem;
 }
 
-.search-icon {
-  height: 100%;
-  margin-left: 20rem;
-  padding-right: 0.8rem;
-  padding-bottom: 2rem;
-  font-size: 1rem;
-}
 
 .fa-search {
-  border-left: 0.1rem solid rgb(122, 119, 119);
-  padding-left: 0.5rem;
+  border-left: 0.08rem solid rgb(192, 189, 189);
+  border-right: 0.08rem solid rgb(192, 189, 189);
+  padding: 0 0.5rem;
+}
+
+.harmburger {
+  display: none;
 }
 
 .festival {
@@ -379,7 +393,7 @@ header {
 }
 
 .latest-funding img {
-  width: 30%;
+  width: 4rem;
   height: 20%;
   position: relative;
   top: 4.5rem;
@@ -623,10 +637,6 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .bottom-nav {
-    max-width: max-content;
-  }
-
   .tnw-logo,
   .date {
     display: none;
@@ -652,7 +662,7 @@ footer {
   }
 
   .latest-funding img {
-    width: 12%;
+    width: 4rem;
   }
 
   .last-index {
@@ -668,6 +678,10 @@ footer {
     position: absolute;
   }
 
+  .popular-info h5 {
+    font-size: 0.5rem;
+  }
+
   .footer-bottom {
     font-size: 0.6rem;
   }
@@ -678,13 +692,29 @@ footer {
     font-size: 0.6rem;
   }
 
-  .bottom-nav > div {
+  .bottom-nav {
+    width: 100%;
+  }
+
+  .bottom-nav li {
     display: none;
+  }
+
+  .nav-icons {
+    width: 100%;
+    position: fixed;
+    bottom: inherit;
   }
 
   .search-icon {
     margin-left: 39rem;
-    display: inline !important;
+    display: inline;
+  }
+
+  .harmburger {
+    display: inline;
+    color: #f42 !important;
+    padding:0  0.5rem;
   }
 
   .festival {
@@ -728,8 +758,24 @@ footer {
     display: block;
   }
 
+
+  .latest-news-flex {
+    display: flex;
+    padding: 0.5rem 0;
+  }
+
+  .latest-news-info {
+    height: 5%;
+  }
+
+  .latest-news p a {
+    font-size: 0.8rem;
+  }
+
   .latest-news img {
-    width: 25%;
+    width: 70%;
+    height: 100%;
+    margin-right: -12rem;
   }
 
   .main-img-info {
@@ -789,13 +835,18 @@ footer {
 
   .latest-items img {
     width: 5rem;
+    padding-right: 1rem;
   }
 
   .latest-items-h4 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .latest-items-h4 small {
     font-size: 0.6rem;
+  }
+
+  .latest-items-flex {
+    display: flex;
   }
 }
