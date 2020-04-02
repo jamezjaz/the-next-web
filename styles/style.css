@@ -1,0 +1,848 @@
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  background-color: black;
+  color: rgb(233, 227, 227);
+  width: 100%;
+  height: 2rem;
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.top-nav {
+  text-align: start;
+}
+
+.top-nav > * {
+  display: inline;
+  padding: 0 1rem;
+}
+
+a,
+i {
+  color: rgb(24, 22, 22);
+  text-decoration: none;
+}
+
+h5 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.top-nav a {
+  color: rgb(158, 152, 152);
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.social-icons i {
+  border-radius: 2rem;
+  padding: 0.5rem 0.6rem;
+  background: rgb(49, 49, 49);
+}
+
+.bottom-nav li,
+.bottom-nav i {
+  color: rgb(128, 122, 122);
+}
+
+.bottom-nav > * {
+  padding-top: 1rem;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.news-heading a,
+.latest-heading a,
+.latest-deals a {
+  color: #f42;
+}
+
+.latest-title a,
+.latest-price a {
+  position: absolute;
+  margin-left: 5.5rem;
+  padding-top: 0.5rem;
+}
+
+.tags a {
+  color: rgb(114, 112, 112);
+}
+
+.popular a {
+  font-size: 1.7rem;
+  color: #f42;
+}
+
+.info a {
+  padding: 0 0.2rem;
+}
+
+.list li a {
+  justify-content: flex-start;
+  font-size: 0.7rem;
+  font-size: 0.8rem;
+  color: rgb(100, 98, 98);
+}
+
+.container h2 a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.latest-news p a {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+}
+
+.latest-news small a {
+  font-size: 0.7rem;
+  color: rgb(121, 117, 117);
+}
+
+.popular-info h2 a {
+  font-size: 1rem;
+  font-weight: bolder;
+  color: rgb(219, 213, 213);
+}
+
+.popular-info small,
+.popular-info small a {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: rgb(148, 144, 144);
+}
+
+.h4-heading h4,
+.h4-heading h5 a {
+  color: #f42;
+}
+
+.footer-items li a {
+  color: #aaa;
+}
+
+.top-nav a:hover {
+  color: white;
+}
+
+.news {
+  color: white !important;
+}
+
+.right {
+  text-align: end;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 213, 213);
+  width: 100%;
+  height: 3rem;
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.bottom-nav li {
+  display: inline;
+  padding: 1.2rem 0 1.2rem 1rem;
+  word-spacing: 1rem;
+}
+
+.footer-items li {
+  display: inline;
+  font-size: 0.85rem;
+  word-spacing: 1rem;
+}
+
+.bottom-nav li:hover,
+.search-icon:hover {
+  color: black;
+}
+
+.logo {
+  background: linear-gradient(to right, rgb(180, 41, 127), red);
+  width: 6rem;
+  height: 100%;
+  padding: 1rem 0.5rem 0 0.8rem;
+}
+
+.fa-search {
+  border-left: 0.08rem solid rgb(192, 189, 189);
+  border-right: 0.08rem solid rgb(192, 189, 189);
+  padding: 0 0.5rem;
+}
+
+.harmburger {
+  display: none;
+}
+
+.festival {
+  background-color: rgb(207, 207, 9);
+  width: 100%;
+  height: 1.8rem;
+  padding: 0.4rem 0 0 1rem;
+}
+
+.container h5 {
+  font-size: 0.8rem;
+}
+
+.main-img-info h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.main-img-info small,
+.minor-img-info small {
+  color: rgb(24, 22, 22);
+  text-decoration: none;
+}
+
+.author {
+  font-size: 0.8rem;
+}
+
+.author a:hover {
+  color: rgb(212, 209, 209);
+}
+
+.minor-img-info h2 {
+  font-size: 1.6rem;
+}
+
+.main {
+  grid-area: photo;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_27020_primary_image_wide-796x398.jpg");
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.minor1 {
+  grid-area: photo1;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/doctors-philippines-grab-bird-lime-scooter-e-scooter-vehicle-car-cab-taxi-796x448.jpg");
+  background-size: 100% 100%;
+}
+
+.minor2 {
+  grid-area: photo2;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/doctors-philippines-grab-bird-lime-scooter-e-scooter-vehicle-car-cab-taxi-796x448.jpg");
+  background-size: 100% 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-template-rows: 12.5rem 12.5rem;
+  grid-template-areas:
+    "photo photo photo1 photo1"
+    "photo photo photo2 photo2";
+  grid-gap: 0.6rem;
+  margin: 0.2rem 0.5rem;
+}
+
+.gradient {
+  background: linear-gradient(to top left, rgb(19, 150, 155), rgb(245, 74, 74));
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.tnw-logo,
+.main-img-info,
+.minor-img-info {
+  position: absolute;
+}
+
+.date {
+  color: whitesmoke;
+  position: fixed;
+  width: 20%;
+  top: 8rem;
+  right: 25.5rem;
+}
+
+.tnw-logo {
+  width: 50%;
+  bottom: 18rem;
+  left: 1.5rem;
+}
+
+.main-img-info {
+  bottom: 1.5rem;
+  left: 1.5rem;
+  line-height: 1.2;
+}
+
+.minor-img-info {
+  line-height: 1.2;
+  margin: 5rem 0 0 1rem;
+}
+
+.news-heading {
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+
+.latest-h3,
+.latest-deals {
+  font-size: 2rem;
+}
+
+.latest-h3 a:hover,
+.info a:hover,
+.news-heading a:hover {
+  color: black;
+}
+
+.latest-news img {
+  width: 100%;
+  height: 100%;
+}
+
+.fa-angle-right {
+  color: #f42;
+}
+
+.fa-angle-right:hover {
+  color: black;
+}
+
+.latest-news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  padding: 2rem 0;
+  margin: 0 3rem 0 3rem;
+  line-height: 1.3;
+}
+
+.tags a:hover {
+  color: black;
+}
+
+.popular a:hover {
+  color: black;
+}
+
+.h4-heading a:hover {
+  text-decoration: underline;
+}
+
+.latest-deals a:hover {
+  color: black;
+}
+
+.latest-items-h4 a:hover {
+  color: #f42;
+}
+
+.latest-news p a:hover {
+  color: rgb(255, 30, 0);
+}
+
+.latest-news small {
+  font-size: 0.7rem;
+  color: rgb(121, 117, 117);
+}
+
+.latest-news small a:hover {
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.latest-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.latest-funding {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.5rem;
+}
+
+.latest-funding img {
+  width: 4rem;
+  height: 20%;
+  position: relative;
+  top: 4.5rem;
+  padding-left: 1rem;
+}
+
+.latest-title {
+  background-color: rgb(255, 30, 0);
+  height: 2.5rem;
+}
+
+.latest-price {
+  background-color: rgb(204, 188, 191);
+  height: 3rem;
+}
+
+.latest-title h4 {
+  color: whitesmoke;
+}
+
+.latest-price h5 {
+  font-weight: bolder;
+}
+
+.latest-price h6,
+.tags {
+  color: rgb(117, 114, 114);
+  font-weight: lighter;
+  line-height: 1.5rem;
+}
+
+.tags {
+  margin: 1rem 0 1rem 0.7rem;
+  border-bottom: 0.06rem solid rgb(252, 25, 9);
+}
+
+.description1 {
+  font-size: 0.9rem;
+  color: rgb(117, 114, 114);
+  font-weight: lighter;
+  line-height: 1.2rem;
+}
+
+.description2 {
+  color: rgb(184, 181, 181);
+}
+
+.latest {
+  padding: 2rem 3rem;
+}
+
+.most-popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 2rem 3rem 3rem 3rem;
+}
+
+.popular {
+  margin-bottom: 2rem;
+}
+
+.popular-container {
+  position: relative;
+}
+
+.popular-main-img {
+  width: 100%;
+  height: 100%;
+}
+
+.popular-info-fig {
+  position: relative;
+}
+
+.popular-info {
+  position: absolute;
+  line-height: 1.3;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.popular-info h5 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: rgb(161, 157, 157);
+}
+
+.popular-info h2 a:hover {
+  text-decoration: underline;
+}
+
+.popular-info small a:hover {
+  color: white;
+}
+
+.popular-minor-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.latest-h4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h4-heading {
+  padding: 0.7rem 0 0 0.7rem;
+  line-height: 1.2;
+  background-color: rgb(243, 203, 210);
+}
+
+.h4-heading h4 {
+  font-weight: lighter;
+}
+
+.list {
+  margin: 1rem 0;
+}
+
+.list li a:hover {
+  color: black;
+}
+
+.list li::before {
+  content: "\2022";
+  color: #f42;
+}
+
+.list-hr {
+  border: 0.03rem solid rgb(207, 204, 204);
+}
+
+.horizon-row {
+  border-bottom: 0.03rem solid rgb(207, 204, 204);
+  padding: 0.6rem 0;
+}
+
+.latest-deals {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 3rem 0 3rem;
+}
+
+.latest-deals :nth-child(2) {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.latest-items-h4 h4 {
+  font-weight: 900;
+}
+
+.latest-items-h4 small {
+  font-size: 0.8rem;
+  color: grey;
+  text-decoration: line-through;
+}
+
+.latest-items-h4 span {
+  color: grey;
+  font-weight: bold;
+}
+
+.latest-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  padding: 2rem 0;
+  margin: 0 3rem 0 3rem;
+}
+
+.latest-items img {
+  width: 100%;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+  align-items: center;
+  height: 9rem;
+}
+
+.social-icons {
+  padding: 2rem 2rem;
+  word-spacing: 0.8rem;
+}
+
+.social-icons > * {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.footer-items li a:hover {
+  color: whitesmoke;
+}
+
+.footer-bottom {
+  font-size: 0.8rem;
+  background-color: #000;
+  text-align: center;
+  height: 6rem;
+  padding-top: 2.2rem;
+}
+
+.footer-bottom b {
+  color: #f42;
+}
+
+.footer-top,
+.footer-bottom {
+  color: #aaa;
+}
+
+.footer-img {
+  width: 4rem;
+}
+
+footer {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .right {
+    display: none;
+  }
+
+  nav {
+    grid-template-columns: 1fr;
+  }
+
+  .tnw-logo,
+  .date {
+    display: none;
+  }
+
+  .gradient {
+    background: none;
+    line-height: 0.7rem;
+  }
+
+  .main-img-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .minor-img-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .latest-news,
+  .latest-funding,
+  .latest-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-funding img {
+    width: 4rem;
+  }
+
+  .last-index {
+    display: none;
+  }
+
+  .most-popular {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .popular-info {
+    position: absolute;
+  }
+
+  .popular-info h5 {
+    font-size: 0.3rem;
+  }
+
+  .footer-bottom {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    font-size: 0.6rem;
+  }
+
+  .bottom-nav {
+    width: 100%;
+  }
+
+  .bottom-nav li {
+    display: none;
+  }
+
+  .nav-icons {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+  }
+
+  .search-icon {
+    margin-left: 39rem;
+    display: inline;
+  }
+
+  .harmburger {
+    display: inline;
+    color: #f42 !important;
+    padding: 0 0.5rem;
+  }
+
+  .festival {
+    height: 2.8rem;
+    padding-top: 1rem;
+  }
+
+  .main {
+    grid-area: photo;
+    position: relative;
+    background-size: cover;
+  }
+
+  .minor1 {
+    grid-area: photo1;
+    background-size: cover;
+  }
+
+  .minor2 {
+    grid-area: photo2;
+    background-size: cover;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 8rem);
+    grid-template-areas:
+      "photo photo photo photo"
+      "photo1 photo1 photo1 photo1"
+      "photo2 photo2 photo2 photo2";
+    grid-gap: 0.6rem;
+    margin: 0.2rem 0.5rem;
+  }
+
+  .main-section,
+  .latest-news,
+  .latest-funding,
+  .most-popular,
+  .latest-items {
+    display: block;
+  }
+
+  .latest-news-flex {
+    display: flex;
+    padding: 0.5rem 0;
+  }
+
+  .latest-news-info {
+    height: 5%;
+  }
+
+  .latest-news p a {
+    font-size: 0.8rem;
+  }
+
+  .latest-news img {
+    width: 70%;
+    height: 100%;
+    margin-right: -12rem;
+  }
+
+  .main-img-info {
+    top: 1.5rem;
+    left: 1rem;
+  }
+
+  .minor-img-info {
+    line-height: 1.2;
+    margin: 2.5rem 0 0 1rem;
+  }
+
+  .main-img-info h2,
+  .minor-img-info h2 {
+    font-size: 1rem;
+  }
+
+  .latest-container {
+    max-width: max-content;
+  }
+
+  .latest-h3 {
+    font-size: 1rem;
+  }
+
+  .popular-main-img {
+    width: 100%;
+  }
+
+  .popular-info h5 {
+    font-size: 0.5rem;
+  }
+
+  .popular-info h2 {
+    font-size: 0.1rem;
+  }
+
+  .popular-info small a,
+  .popular-info small {
+    font-size: 0.6rem;
+  }
+
+  .popular-info {
+    position: absolute;
+  }
+
+  .h4-heading {
+    width: 73%;
+    background-color: transparent;
+  }
+
+  .latest-h4 {
+    justify-content: flex-start;
+    font-size: 0.7rem;
+  }
+
+  .latest-items img {
+    width: 5rem;
+    padding-right: 1rem;
+  }
+
+  .latest-items-h4 {
+    font-size: 0.8rem;
+  }
+
+  .latest-items-h4 small {
+    font-size: 0.6rem;
+  }
+
+  .latest-items-flex {
+    display: flex;
+  }
+}
