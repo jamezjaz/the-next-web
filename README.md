@@ -30,7 +30,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/e88c3313742f2ce7d5a51195bf33be172a39c532/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/53075ec0e249d9eb064a2e67bc0fda1d8953e031/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
