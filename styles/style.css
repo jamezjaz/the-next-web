@@ -273,7 +273,6 @@ header {
   height: 100%;
 }
 
-.date,
 .tnw-logo,
 .main-img-info,
 .minor-img-info {
@@ -282,8 +281,10 @@ header {
 
 .date {
   color: whitesmoke;
-  bottom: 24rem;
-  left: 30rem;
+  position: fixed;
+  width: 20%;
+  top: 8rem;
+  right: 25.5rem;
 }
 
 .tnw-logo {
